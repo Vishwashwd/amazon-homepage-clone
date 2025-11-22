@@ -1,6 +1,7 @@
 #navbar {
     height: 60px;
     background-color: black;
+    
 }
 * {
     padding: 0;
@@ -19,6 +20,10 @@ button {
 }
 
 a {
-    margin-right: 200px;
+    margin-right: 150px;
     text-decoration: none;
+}
+
+#searchbox {
+    color: black;
 }
