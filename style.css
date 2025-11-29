@@ -26,4 +26,29 @@ a {
 
 #searchbox {
     color: black;
+
+}
+
+footer {
+    background-color:#37475A;
+    height: 50px;
+    
+}
+
+p {
+    text-align: center;
+    
+}
+
+#content {
+    height: 541px;
+    text-align: center;
+    background-color:none;
+    color: #f08804;
+}
+
+#footer {
+    text-align: center;
+    width: 100%;
+    align-items: center;
 }
