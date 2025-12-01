@@ -1,6 +1,16 @@
 #navbar {
     height: 60px;
     background-color: black;
+    padding: auto;
+    
+    
+    
+}
+
+#navbar a {
+    text-decoration: none;
+    margin-right: 125px;
+    
     
 }
 * {
