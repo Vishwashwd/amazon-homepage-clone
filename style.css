@@ -134,7 +134,8 @@ p {
 
 }    
 
-.bottom {
+.backtotop:hover {
+    background-color: #495768;
     
 }
     
