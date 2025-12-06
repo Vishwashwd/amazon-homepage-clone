@@ -62,7 +62,7 @@ p {
 
 .backtotop {
     
-    background-color: #37475A;
+    background-color: #37475A !important;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -131,12 +131,21 @@ p {
 
 .amazon-logo {
     width: 100px;
+    display: block;
+    
 
 }    
 
 .backtotop:hover {
     background-color: #495768;
     
+}
+
+.bottom {
+    padding: 10px;
+    background-color:#232F3E;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+
 }
     
 
