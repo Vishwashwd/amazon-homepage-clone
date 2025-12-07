@@ -60,13 +60,24 @@ p {
     color: #f08804;
 }
 
+.backtotop a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     line-height: 50px;
+}
+
 .backtotop {
     
-    background-color: #37475A !important;
+    background-color: #37475A ;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #backtotop {
@@ -137,7 +148,7 @@ p {
 }    
 
 .backtotop:hover {
-    background-color: #495768;
+    background-color:#495768;
     
 }
 
@@ -147,6 +158,8 @@ p {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 
 }
+
+
     
 
 
