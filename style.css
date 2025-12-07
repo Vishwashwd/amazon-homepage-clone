@@ -67,12 +67,12 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-     line-height: 50px;
+    line-height: 50px;
 }
 
 .backtotop {
     
-    background-color: #37475A ;
+    background-color: #37475A;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -157,6 +157,10 @@ p {
     background-color:#232F3E;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 
+}
+.amazon-logo1 {
+    width: 100px;
+    display: block;
 }
 
 
