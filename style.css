@@ -163,6 +163,14 @@ p {
     display: block;
 }
 
+.selectorbutton1 {
+    background: transparent;
+}
+.selector {
+  display: flex;
+  gap: 20px;
+  padding: 
+}
 
     
 
