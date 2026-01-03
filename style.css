@@ -165,13 +165,18 @@ p {
 
 .selectorbutton1 {
     background: transparent;
+    
 }
 .selector {
   display: flex;
-  gap: 20px;
-  padding: 
+  margin: 20px;
+  margin-top: 5px;
 }
 
+.sectionlast {
+    background-color: #131A22;
+
+}
     
 
 
