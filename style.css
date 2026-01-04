@@ -141,8 +141,9 @@ p {
 }
 
 .amazon-logo {
-    width: 100px;
+    width: 79px;
     display: block;
+    margin-right: 50px;
     
 
 }    
@@ -153,24 +154,28 @@ p {
 }
 
 .bottom {
-    padding: 10px;
+    padding: 27px;
     background-color:#232F3E;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 
 }
 .amazon-logo1 {
-    width: 100px;
+    width: 10px;
     display: block;
 }
 
 .selectorbutton1 {
     background: transparent;
+    display: flex;
+    font-size: 22px;
+    
     
 }
 .selector {
   display: flex;
   margin: 20px;
   margin-top: 5px;
+
 }
 
 .sectionlast {
