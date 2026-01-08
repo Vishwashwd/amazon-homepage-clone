@@ -167,15 +167,18 @@ p {
 .selectorbutton1 {
     background: transparent;
     display: flex;
-    font-size: 22px;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 120px;
+    padding: 5px;
     
     
 }
 .selector {
   display: flex;
-  margin: 20px;
-  margin-top: 5px;
-
+  margin: 5px;
+  margin-top: 1px;
+  margin-bottom: 15px;
 }
 
 .sectionlast {
