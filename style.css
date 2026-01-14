@@ -164,21 +164,33 @@ p {
     display: block;
 }
 
-.selectorbutton1 {
-    background: transparent;
-    display: flex;
-    font-size: 12px;
-    font-family: 'Courier New', Courier, monospace;
-    width: 120px;
-    padding: 5px;
-    
-    
+.lang-selector {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid #c7c7c7;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: transparent;
 }
-.selector {
-  display: flex;
-  margin: 5px;
-  margin-top: 1px;
-  margin-bottom: 15px;
+
+.lang-selector:hover {
+  border-color: #ffffff;
+}
+
+.globe {
+  font-size: 14px;
+}
+
+.lang-text {
+  font-weight: 500;
+}
+
+.arrow {
+  font-size: 10px;
+  margin-top: 2px;
 }
 
 .sectionlast {
