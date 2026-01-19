@@ -204,7 +204,8 @@ p {
   padding: 40px 60px;
   padding-top: 3px;
   font-family: Arial, Helvetica, sans-serif;
-  min-height: 140px;
+  min-height: 100px;
+  height: auto;
   
 }
 
@@ -219,7 +220,7 @@ p {
 .footer-column {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 0px;
 }
 
 .footer-title {
@@ -243,7 +244,7 @@ p {
 .footer-legal {
   background: #131A22;
   text-align: center;
-  padding: ;
+  margin-top: 50px ;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -258,6 +259,8 @@ p {
   font-size: 12px;
   color: #dddddd;
   text-decoration: none;
+  gap: 22px;
+  margin-bottom: ;
 }
 
 .legal-links a:hover {
@@ -267,6 +270,14 @@ p {
 .legal-copy {
   font-size: 12px;
   color: #999999;
+}
+
+#foots {
+  margin-top: 90px;
+  text-align: center;
+  justify-content: flex-start;
+  margin-right: ;
+  
 }
 
 
