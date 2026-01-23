@@ -8,6 +8,8 @@
 .navbar {
   height: 60px;
   background-color: #131921;
+  display: flex;
+  align-items: center;
 
 }
 
@@ -27,9 +29,32 @@
   height: 42px;
   padding: 1px 8px 0px 6px;
   margin: 5px;
+  cursor: pointer;
 
 }
 
+.add-one {
+  color: #cccccc;
+  font-size: 0.75rem;
+  font-family:  Arial, sans-serif ;
+  margin-left: 15px;
+}
+
+.add-two {
+  color: #FFFFFF;
+  font-size: 0.90rem;
+  font-family:  Arial, sans-serif;
+  margin-left: 3px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+.search-cate {
+  color: black;
+}
 
  
 
@@ -155,6 +180,7 @@ button {
 
 .backtotop:hover {
   background-color: #495768;
+  
 
 }
 
