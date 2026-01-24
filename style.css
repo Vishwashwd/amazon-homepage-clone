@@ -29,10 +29,15 @@
   width: 95px;
   height: 42px;
   padding: 1px 8px 0px 6px;
-  margin: 5px;
   cursor: pointer;
 
 }
+
+.nav-address {
+  cursor: pointer;
+  padding: 5px 0px
+}
+
 
 .add-one {
   color: #cccccc;
@@ -46,6 +51,7 @@
   font-size: 0.90rem;
   font-family: Arial, sans-serif;
   margin-left: 3px;
+  font-weight: 700;
 }
 
 .add-icon {
@@ -75,6 +81,9 @@
   justify-content: space-evenly;
 }
 
+.nav-search:hover {
+  border: 2px solid orange;
+}
 .search-input {
   width: 100%;
   font-size: 1rem;
@@ -129,6 +138,68 @@
   outline: 1px solid white;
   border-radius: 2px;
 }
+
+.nav-signin {
+  gap: 2px;
+  cursor: pointer;
+  padding: 0px 4px 0px 9px;
+  cursor: pointer;
+}
+
+.top-1 {
+  font-size: 0.75rem;
+  font-family: Arial,sans-serif;
+  color: #FFFFFF;
+  
+}
+
+.top-2 {
+  font-size: 0.95rem;
+  font-family: arial, sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+
+}
+
+.nav-signin:hover {
+  outline: 1px solid white;
+  border-radius: 2px;
+}
+
+.return-orders {
+  padding: 0px 9px 0px;
+  cursor: pointer;
+}
+
+.return-orders:hover {
+  outline: 1px solid white;
+  border-radius: 2px;
+}
+
+.nav-cart {
+  display: flex;
+  font-family: arial, sans-serif;
+  font-weight: 700;
+  font-size:0.95rem;
+  cursor: pointer;
+  padding: 5px 5px;
+}
+
+.nav-cart i {
+  font-size: 1.7rem;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-cart p {
+  margin-top: 11.5px;
+}
+
+.nav-cart:hover {
+  outline: 1px solid white;
+  border-radius: 2px;
+}
+
 
 
 
