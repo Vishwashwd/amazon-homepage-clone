@@ -86,9 +86,12 @@
 }
 .search-input {
   width: 100%;
-  font-size: 1rem;
+  font-size: 0.90rem;
   border: none;
   color: #0f1111;
+  padding: 0px 7px;
+  font-weight: 510;
+
 }
 
 .search-icon {
