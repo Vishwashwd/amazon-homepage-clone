@@ -216,7 +216,7 @@
 }
 
 
-}
+
 
 .panel-options p {
   padding: 8px 9px;
@@ -261,6 +261,12 @@
   display:inline-flex;
   gap: 15px;
   cursor: pointer;
+}
+
+.hero-section {
+  background-image: url("hero_image.jpg");
+  background-size: cover;
+  height: 350px;
 }
 
 
