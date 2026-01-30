@@ -84,6 +84,7 @@
 .nav-search:hover {
   border: 2px solid orange;
 }
+
 .search-input {
   width: 100%;
   font-size: 0.90rem;
@@ -118,11 +119,11 @@
   margin-top: 6px;
   padding: 6px 8px;
   color: white;
-  font-family: Arial,sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  
+
 }
 
 .lang-box img {
@@ -151,9 +152,9 @@
 
 .top-1 {
   font-size: 0.75rem;
-  font-family: Arial,sans-serif;
+  font-family: Arial, sans-serif;
   color: #FFFFFF;
-  
+
 }
 
 .top-2 {
@@ -183,7 +184,7 @@
   display: flex;
   font-family: arial, sans-serif;
   font-weight: 700;
-  font-size:0.95rem;
+  font-size: 0.95rem;
   cursor: pointer;
   padding: 5px 5px;
 }
@@ -201,7 +202,7 @@
 .nav-cart:hover {
   outline: 1px solid white;
   border-radius: 2px;
-} 
+}
 
 .panel {
   height: 39px;
@@ -212,7 +213,7 @@
   gap: 15px;
   font-size: 0.90rem;
   font-family: Arial, Helvetica, sans-serif;
-  
+
 }
 
 
@@ -222,8 +223,8 @@
   padding: 8px 9px;
   font-size: 0.90rem;
   cursor: pointer;
-  border: 1px solid transparent; 
-  box-sizing: border-box;     
+  border: 1px solid transparent;
+  box-sizing: border-box;
 }
 
 .panel-options p:hover {
@@ -232,13 +233,13 @@
 
 .panel-all p {
   padding: 2px 2.5px;
-  align-items: center ;
+  align-items: center;
   font-weight: 700;
 }
 
 .panel i {
   font-size: 1.3rem;
-  
+
 }
 
 
@@ -246,19 +247,20 @@
   display: flex;
   margin-left: 5.6px;
   cursor: pointer;
-  border: 1px solid transparent; 
+  border: 1px solid transparent;
   box-sizing: border-box;
   padding: 8px 9px;
-  
-  
+
+
 }
 
 .panel-all:hover {
   border-color: white;
 
 }
+
 .panel-options {
-  display:inline-flex;
+  display: inline-flex;
   gap: 15px;
   cursor: pointer;
 }
@@ -269,6 +271,40 @@
   height: 350px;
 }
 
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+
+.box {
+  height: 420px;
+  color: black;
+  border: 2px solid black;
+  width: 23%;
+  background-color: white;
+
+}
+
+.box-1 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 15px;
+  
+}
+
+.box-img-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 100px;
+}
+
+.box-img-grid img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+}
 
 
 
