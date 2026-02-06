@@ -312,9 +312,8 @@
 .box1 {
   display: grid;
   background-color: white;
-  padding: 20px;
   margin-top: 15px;
-  
+  padding: 20px;
 }
 
 
@@ -329,7 +328,7 @@
 .box-img-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: ;
     text-align: center;
     margin-top: 15px;
 }
@@ -363,6 +362,13 @@
   color: black;
 }
 
+.box2 {
+  display: grid;
+  background-color: white;
+  padding: 20px;
+  margin-top: 15px;
+
+}
 
 
 
