@@ -276,6 +276,7 @@
   justify-content: space-evenly;
   background-color: #e2e7e6;
   flex-wrap: wrap;
+  
 }
 
 .box-content h2 {
@@ -299,11 +300,12 @@
 }
 
 .box {
-  min-height: 420px;
+  min-height: 300px;
   height: auto;
   color: black;
+  padding: px;
   
-  width: 23%;
+  width: 21%;
   background-color: white;
   margin-top: 15px;
 
@@ -328,9 +330,9 @@
 .box-img-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: ;
     text-align: center;
     margin-top: 15px;
+    
 }
 
 .product {
@@ -368,6 +370,13 @@
   padding: 20px;
   margin-top: 15px;
 
+}
+
+.box3 {
+  display: grid;
+  background-color: white;
+  padding: 20px;
+  margin-top: 15px;
 }
 
 
