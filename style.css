@@ -379,6 +379,15 @@
   margin-top: 15px;
 }
 
+.box4 {
+  display: grid;
+  background-color: white;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+
+
 
 
 #content {
