@@ -338,7 +338,13 @@
 .product {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.productb4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
    
@@ -350,7 +356,23 @@
     object-fit: contain;
 }
 
+.productb4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .product p {
+    display: flex;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: arial,sans-serif;
+    justify-content: center;
+    
+}
+
+.productb4 p {
     display: flex;
     margin-top: 8px;
     font-size: 14px;
